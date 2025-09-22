@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Abort if GDB_TMUX_FILE is not defined
 if [ -z $GDB_TMUX_FILE ]; then
   echo "Environment variable GDB_TMUX_FILE not defined"
