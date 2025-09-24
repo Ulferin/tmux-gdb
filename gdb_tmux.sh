@@ -39,5 +39,7 @@ fi
 
 # Let the other pane sleep so shell does not interfere with tty input
 tmux send-keys -t "$pane" "sleep 10000" Enter
+tmux last-pane
 
 gdb -ex "tty $tty_value" $program
+tmux send-keys -t "$pane" C-c "exit" Enter
