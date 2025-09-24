@@ -28,6 +28,7 @@ fi
 
 tty_file="$GDB_TMUX_FILE.tty"
 tmux send-keys -t "$pane" "tty > $tty_file" Enter
+sleep 1
 
 if [ -e "$tty_file" ]; then
   tty_value=$(cat $tty_file)
