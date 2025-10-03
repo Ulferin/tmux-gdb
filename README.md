@@ -15,3 +15,6 @@ echo $TMUX_PANE > $GDB_TMUX_FILE
 ```
 > [!NOTE]
 > This is necessary to retrieve the newly created tmux pane's unique ID.
+
+## References
+- [ShaneKirk blog post](http://shanekirk.com/2017/08/gdb-tips-and-tricks-1-a-tale-of-two-terminals/)
