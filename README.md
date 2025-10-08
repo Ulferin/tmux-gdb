@@ -4,4 +4,4 @@ output from inside GDB to be redirected to the newly created pane.
 
 # References
 - [ShaneKirk blog post](http://shanekirk.com/2017/08/gdb-tips-and-tricks-1-a-tale-of-two-terminals/)
-- [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard/wiki/Use-multiple-terminal
+- [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard/wiki/Use-multiple-terminal)
